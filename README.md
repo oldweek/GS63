@@ -5,7 +5,7 @@ hackintosh: gs63-7re the efi files of devices....
 <br/>	因MSI的该系列主板采用相同的配置的内建硬件,故可以通用.*详细的的通用将在支持机型里面说明
 
 <br/>持的操作系统级别:
-<br/>macOS 10.13.6 (推荐使用)
+macOS 10.13.6 (推荐使用)
 <br/>	使用该系统支持 本机自带的独立显卡,支持GPU显卡加速
 <br/>macOS 10.14
 <br/>	支持独立显卡,但是不支持GPU显卡加速
@@ -36,18 +36,18 @@ hackintosh: gs63-7re the efi files of devices....
 	README : 说明文件
 	README_en : 英文版说明文件 
 
-<br/>*Apache License, 2.0 (Apache-2.0)
-<br/>*BSD 3-Clause "New" or "Revised" license (BSD-3-Clause)
-<br/>*BSD 3-Clause "Simplified" or "FreeBSD" license (BSD-2-Clause)
-<br/>*GNU General Public License (GPL)
-<br/>*GNU Library or "Lesser" General Public License (LGPL)
-<br/>*MIT license (MIT)
-<br/>*Mozilla Public License 1.1 (MPL-1.1)
-<br/>*Common Development and Distribution License (CDDL-1.0)
-<br/>*Eclipse Public License (EPL-1.0)
+<br/> *Apache License, 2.0 (Apache-2.0)
+<br/> *BSD 3-Clause "New" or "Revised" license (BSD-3-Clause)
+<br/> *BSD 3-Clause "Simplified" or "FreeBSD" license (BSD-2-Clause)
+<br/> *GNU General Public License (GPL)
+<br/> *GNU Library or "Lesser" General Public License (LGPL)
+<br/> *MIT license (MIT)
+<br/> *Mozilla Public License 1.1 (MPL-1.1)
+<br/> *Common Development and Distribution License (CDDL-1.0)
+<br/> *Eclipse Public License (EPL-1.0)
 
 
-#1,支持机型
+# 1,支持机型
 <br/>	本项目主要维护机型: GS63-7RE,以下测试说明均来自该机型
 
 	机型 - 对应 EFI clover 文件
@@ -63,7 +63,7 @@ hackintosh: gs63-7re the efi files of devices....
 	https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html
 
 
-#2,项目进度
+# 2,项目进度
 <br/>macOS10.13.6 :百分之85,独显+GPU视频加速;
 <br/>10.14: 独显,无视频加速
 <br/>10.15: 无独显
@@ -71,7 +71,7 @@ hackintosh: gs63-7re the efi files of devices....
 
 
 
-#3,硬件检测
+# 3,硬件检测
 <br/>型号名称: MACBook PRO
 <br/>型号标识符:MACBook14.3
 <br/>处理器名称:Inter Core i7[i7-7700HQ]
@@ -107,10 +107,10 @@ hackintosh: gs63-7re the efi files of devices....
 <br/>[speaker(Anolog)*2, SPDIF-OUT, microphone(digital) ,microphone(Black rear) ,digital-out(HDMI)]
 
 
-#4,完整度数
+# 4,完整度数
 <br/>接近百分之90的原生适配度,出现的问题在下列中说明*
 
-#5,解决方案
+# 5,解决方案
 <br/>该解决方案指出的是 无线网络方案
 <br/>方案一: 外置 USB无线网卡,推荐 USB3.0 876+300M 无线网卡
 <br/>方案二: 内置 
@@ -132,7 +132,7 @@ hackintosh: gs63-7re the efi files of devices....
 
     BCM94360CSAX (3 antenna, BT4, a/b/g/n): MacBook Pro 13” and 15” Retina (Late 2012-Early 2013)
 
-#6,尚未解决 
+# 6,尚未解决 
 <br/>可以解决的方案,但尚未处理,期待各位携手一起处理
 <br/>1,屏幕亮度调节 	(体验问题)
 <br/>2,读卡器功能		(功能问题)
@@ -142,10 +142,10 @@ hackintosh: gs63-7re the efi files of devices....
 <br/>
 <br/>其他问题的发掘期待使用中提交
 
-#7,待解/无解 --- 问题
+# 7,待解/无解 --- 问题
 <br/>1,内置无线网卡 killer N1535 无法驱动
 
-#8,项目资源
+# 8,项目资源
 <br/>1,clover configuration 工具
 <br/>2.webdriver NVIDIA显卡驱动
 <br/>3,音频补丁(无音频笔记本可使用)
