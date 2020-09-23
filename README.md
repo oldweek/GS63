@@ -36,6 +36,8 @@ hackintosh: gs63-7re the efi files of devices....
 	README : 说明文件
 	README_en : 英文版说明文件 
 
+关于Devices下的 G6-7COMM,表示 微星笔记本的 G6任意系列的第7代笔记本通用适配文件
+
 <br/> *Apache License, 2.0 (Apache-2.0)
 <br/> *BSD 3-Clause "New" or "Revised" license (BSD-3-Clause)
 <br/> *BSD 3-Clause "Simplified" or "FreeBSD" license (BSD-2-Clause)
